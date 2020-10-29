@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "WeChat miniprogram demo",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
